@@ -238,7 +238,7 @@ h1{
     padding-right: 3.3em;
     cursor: pointer;
     margin-top: 30px;
-
+    text-decoration: none;
     &:hover .icon {
             width: calc(100% - 0.6em);
 
