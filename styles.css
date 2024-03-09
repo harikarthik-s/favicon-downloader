@@ -13,11 +13,21 @@ html {
 }
 
 body {
-    height: 100vh;
     display: flex;
+    flex-direction: column;
     font-family: 'Inter', Arial;
     justify-content: center;
     align-items: center;
+    margin-top: 10%;
     background: #F6F8FF;
+}
+
+@font-face {
+    font-family: sanss;
+    src: url(./sans.ttf);
+}
+
+h1{
+    font-family: "sanss";
 }
 
